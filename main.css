@@ -1,1 +1,56 @@
-color: #red;
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+button, input[type="text"] {
+  /* padding: 5px; */
+}
+
+ul {
+  list-style: none;
+}
+
+p, a {
+  font-size: 1rem;
+}
+
+p {
+  /* font-size: 1rem; */
+  font-weight: 300;
+  line-height: 25px;
+}
+
+a {
+  font-weight: 300;
+  color: green;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.error-message {
+  color: red;
+}
+#results-list {
+  padding: 0;
+  margin: 0;
+  width: 70%;
+}
+#js-max-results {
+  width: 10%;
+}
+.hidden {
+  display: none;
+}
